@@ -11,12 +11,12 @@
     ),
     'versions' => array(
         'appsero/client' => array(
-            'pretty_version' => 'v1.4.0',
-            'version' => '1.4.0.0',
+            'pretty_version' => 'v2.0.4',
+            'version' => '2.0.4.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../appsero/client',
             'aliases' => array(),
-            'reference' => '43289d79f1d55de687f667b17a2834b986cc7b6e',
+            'reference' => '12ff65b9770286d21edf314e7acfcd26fdde3315',
             'dev_requirement' => false,
         ),
         'league/csv' => array(
