@@ -4,8 +4,12 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6b4e136acd1aa85da5e53c90e2cf4dc8
+class ComposerStaticInit801f39870b8f569097cf3d239aa2d289
 {
+    public static $files = array (
+        '9e4824c5afbdc1482b6025ce3d4dfde8' => __DIR__ . '/..' . '/league/csv/src/functions_include.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'W' => 
         array (
@@ -42,18 +46,29 @@ class ComposerStaticInit6b4e136acd1aa85da5e53c90e2cf4dc8
         'Appsero\\License' => __DIR__ . '/..' . '/appsero/client/src/License.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'League\\Csv\\AbstractCsv' => __DIR__ . '/..' . '/league/csv/src/AbstractCsv.php',
-        'League\\Csv\\Config\\Controls' => __DIR__ . '/..' . '/league/csv/src/Config/Controls.php',
-        'League\\Csv\\Config\\Output' => __DIR__ . '/..' . '/league/csv/src/Config/Output.php',
-        'League\\Csv\\Exception\\InvalidRowException' => __DIR__ . '/..' . '/league/csv/src/Exception/InvalidRowException.php',
-        'League\\Csv\\Modifier\\MapIterator' => __DIR__ . '/..' . '/league/csv/src/Modifier/MapIterator.php',
-        'League\\Csv\\Modifier\\QueryFilter' => __DIR__ . '/..' . '/league/csv/src/Modifier/QueryFilter.php',
-        'League\\Csv\\Modifier\\RowFilter' => __DIR__ . '/..' . '/league/csv/src/Modifier/RowFilter.php',
-        'League\\Csv\\Modifier\\StreamFilter' => __DIR__ . '/..' . '/league/csv/src/Modifier/StreamFilter.php',
-        'League\\Csv\\Plugin\\ColumnConsistencyValidator' => __DIR__ . '/..' . '/league/csv/src/Plugin/ColumnConsistencyValidator.php',
-        'League\\Csv\\Plugin\\ForbiddenNullValuesValidator' => __DIR__ . '/..' . '/league/csv/src/Plugin/ForbiddenNullValuesValidator.php',
-        'League\\Csv\\Plugin\\SkipNullValuesFormatter' => __DIR__ . '/..' . '/league/csv/src/Plugin/SkipNullValuesFormatter.php',
+        'League\\Csv\\ByteSequence' => __DIR__ . '/..' . '/league/csv/src/ByteSequence.php',
+        'League\\Csv\\CannotInsertRecord' => __DIR__ . '/..' . '/league/csv/src/CannotInsertRecord.php',
+        'League\\Csv\\CharsetConverter' => __DIR__ . '/..' . '/league/csv/src/CharsetConverter.php',
+        'League\\Csv\\ColumnConsistency' => __DIR__ . '/..' . '/league/csv/src/ColumnConsistency.php',
+        'League\\Csv\\EncloseField' => __DIR__ . '/..' . '/league/csv/src/EncloseField.php',
+        'League\\Csv\\EscapeFormula' => __DIR__ . '/..' . '/league/csv/src/EscapeFormula.php',
+        'League\\Csv\\Exception' => __DIR__ . '/..' . '/league/csv/src/Exception.php',
+        'League\\Csv\\HTMLConverter' => __DIR__ . '/..' . '/league/csv/src/HTMLConverter.php',
+        'League\\Csv\\Info' => __DIR__ . '/..' . '/league/csv/src/Info.php',
+        'League\\Csv\\InvalidArgument' => __DIR__ . '/..' . '/league/csv/src/InvalidArgument.php',
+        'League\\Csv\\MapIterator' => __DIR__ . '/..' . '/league/csv/src/MapIterator.php',
+        'League\\Csv\\RFC4180Field' => __DIR__ . '/..' . '/league/csv/src/RFC4180Field.php',
         'League\\Csv\\Reader' => __DIR__ . '/..' . '/league/csv/src/Reader.php',
+        'League\\Csv\\ResultSet' => __DIR__ . '/..' . '/league/csv/src/ResultSet.php',
+        'League\\Csv\\Statement' => __DIR__ . '/..' . '/league/csv/src/Statement.php',
+        'League\\Csv\\Stream' => __DIR__ . '/..' . '/league/csv/src/Stream.php',
+        'League\\Csv\\SyntaxError' => __DIR__ . '/..' . '/league/csv/src/SyntaxError.php',
+        'League\\Csv\\TabularDataReader' => __DIR__ . '/..' . '/league/csv/src/TabularDataReader.php',
+        'League\\Csv\\UnableToProcessCsv' => __DIR__ . '/..' . '/league/csv/src/UnableToProcessCsv.php',
+        'League\\Csv\\UnavailableFeature' => __DIR__ . '/..' . '/league/csv/src/UnavailableFeature.php',
+        'League\\Csv\\UnavailableStream' => __DIR__ . '/..' . '/league/csv/src/UnavailableStream.php',
         'League\\Csv\\Writer' => __DIR__ . '/..' . '/league/csv/src/Writer.php',
+        'League\\Csv\\XMLConverter' => __DIR__ . '/..' . '/league/csv/src/XMLConverter.php',
         'WeDevs\\WeMail\\Admin\\Admin' => __DIR__ . '/../..' . '/includes/Admin/Admin.php',
         'WeDevs\\WeMail\\Admin\\Elementor\\FormAction' => __DIR__ . '/../..' . '/includes/Admin/Elementor/FormAction.php',
         'WeDevs\\WeMail\\Admin\\FormPreview' => __DIR__ . '/../..' . '/includes/Admin/FormPreview.php',
@@ -188,9 +203,9 @@ class ComposerStaticInit6b4e136acd1aa85da5e53c90e2cf4dc8
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6b4e136acd1aa85da5e53c90e2cf4dc8::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6b4e136acd1aa85da5e53c90e2cf4dc8::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit6b4e136acd1aa85da5e53c90e2cf4dc8::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit801f39870b8f569097cf3d239aa2d289::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit801f39870b8f569097cf3d239aa2d289::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit801f39870b8f569097cf3d239aa2d289::$classMap;
 
         }, null, ClassLoader::class);
     }
