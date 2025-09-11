@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5399b04b8b20e57e07353deffb1c5170
+class ComposerStaticInit4b31ceeb4ed473182c3e47852b359f85
 {
     public static $files = array (
         '9e4824c5afbdc1482b6025ce3d4dfde8' => __DIR__ . '/..' . '/league/csv/src/functions_include.php',
@@ -174,6 +174,7 @@ class ComposerStaticInit5399b04b8b20e57e07353deffb1c5170
         'WeDevs\\WeMail\\Rest\\MailPoet' => __DIR__ . '/../..' . '/includes/Rest/MailPoet.php',
         'WeDevs\\WeMail\\Rest\\Middleware\\WeMailMiddleware' => __DIR__ . '/../..' . '/includes/Rest/Middleware/WeMailMiddleware.php',
         'WeDevs\\WeMail\\Rest\\Pages' => __DIR__ . '/../..' . '/includes/Rest/Pages.php',
+        'WeDevs\\WeMail\\Rest\\Remote' => __DIR__ . '/../..' . '/includes/Rest/Remote.php',
         'WeDevs\\WeMail\\Rest\\Resources\\Ecommerce\\EDD\\CategoryResource' => __DIR__ . '/../..' . '/includes/Rest/Resources/Ecommerce/EDD/CategoryResource.php',
         'WeDevs\\WeMail\\Rest\\Resources\\Ecommerce\\EDD\\OrderItemResource' => __DIR__ . '/../..' . '/includes/Rest/Resources/Ecommerce/EDD/OrderItemResource.php',
         'WeDevs\\WeMail\\Rest\\Resources\\Ecommerce\\EDD\\OrderResource' => __DIR__ . '/../..' . '/includes/Rest/Resources/Ecommerce/EDD/OrderResource.php',
@@ -203,9 +204,9 @@ class ComposerStaticInit5399b04b8b20e57e07353deffb1c5170
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5399b04b8b20e57e07353deffb1c5170::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5399b04b8b20e57e07353deffb1c5170::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit5399b04b8b20e57e07353deffb1c5170::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit4b31ceeb4ed473182c3e47852b359f85::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit4b31ceeb4ed473182c3e47852b359f85::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit4b31ceeb4ed473182c3e47852b359f85::$classMap;
 
         }, null, ClassLoader::class);
     }
