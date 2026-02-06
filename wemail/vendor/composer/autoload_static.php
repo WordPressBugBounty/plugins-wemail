@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5fb3c28d14fce46aaeac6ba021c24026
+class ComposerStaticInit77217ffa97a0b128cf4d08bda2e27ae9
 {
     public static $files = array (
         '9e4824c5afbdc1482b6025ce3d4dfde8' => __DIR__ . '/..' . '/league/csv/src/functions_include.php',
@@ -188,6 +188,7 @@ class ComposerStaticInit5fb3c28d14fce46aaeac6ba021c24026
         'WeDevs\\WeMail\\Rest\\Rest' => __DIR__ . '/../..' . '/includes/Rest/Rest.php',
         'WeDevs\\WeMail\\Rest\\Site' => __DIR__ . '/../..' . '/includes/Rest/Site.php',
         'WeDevs\\WeMail\\Rest\\States' => __DIR__ . '/../..' . '/includes/Rest/States.php',
+        'WeDevs\\WeMail\\Rest\\Tracking' => __DIR__ . '/../..' . '/includes/Rest/Tracking.php',
         'WeDevs\\WeMail\\Rest\\Users' => __DIR__ . '/../..' . '/includes/Rest/Users.php',
         'WeDevs\\WeMail\\Rest\\Video' => __DIR__ . '/../..' . '/includes/Rest/Video.php',
         'WeDevs\\WeMail\\Rest\\WP' => __DIR__ . '/../..' . '/includes/Rest/WP.php',
@@ -204,9 +205,9 @@ class ComposerStaticInit5fb3c28d14fce46aaeac6ba021c24026
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5fb3c28d14fce46aaeac6ba021c24026::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5fb3c28d14fce46aaeac6ba021c24026::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit5fb3c28d14fce46aaeac6ba021c24026::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit77217ffa97a0b128cf4d08bda2e27ae9::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit77217ffa97a0b128cf4d08bda2e27ae9::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit77217ffa97a0b128cf4d08bda2e27ae9::$classMap;
 
         }, null, ClassLoader::class);
     }
