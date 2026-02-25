@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1ff1169e95e9ebcfc194ebddc50535de
+class ComposerStaticInitfbf654f7f09a660f3c97fa2afa3bf743
 {
     public static $files = array (
         '9e4824c5afbdc1482b6025ce3d4dfde8' => __DIR__ . '/..' . '/league/csv/src/functions_include.php',
@@ -122,7 +122,6 @@ class ComposerStaticInit1ff1169e95e9ebcfc194ebddc50535de
         'WeDevs\\WeMail\\Core\\Help\\Services\\WordpressInfo' => __DIR__ . '/../..' . '/includes/Core/Help/Services/WordpressInfo.php',
         'WeDevs\\WeMail\\Core\\Help\\SystemInfo' => __DIR__ . '/../..' . '/includes/Core/Help/SystemInfo.php',
         'WeDevs\\WeMail\\Core\\Import\\Import' => __DIR__ . '/../..' . '/includes/Core/Import/Import.php',
-        'WeDevs\\WeMail\\Core\\Import\\Menu' => __DIR__ . '/../..' . '/includes/Core/Import/Menu.php',
         'WeDevs\\WeMail\\Core\\Integrations\\Menu' => __DIR__ . '/../..' . '/includes/Core/Integrations/Menu.php',
         'WeDevs\\WeMail\\Core\\Lists\\Lists' => __DIR__ . '/../..' . '/includes/Core/Lists/Lists.php',
         'WeDevs\\WeMail\\Core\\Lists\\Menu' => __DIR__ . '/../..' . '/includes/Core/Lists/Menu.php',
@@ -152,7 +151,6 @@ class ComposerStaticInit1ff1169e95e9ebcfc194ebddc50535de
         'WeDevs\\WeMail\\Core\\Sync\\Sync' => __DIR__ . '/../..' . '/includes/Core/Sync/Sync.php',
         'WeDevs\\WeMail\\Core\\User\\Integrations\\WpUser' => __DIR__ . '/../..' . '/includes/Core/User/Integrations/WpUser.php',
         'WeDevs\\WeMail\\Core\\User\\User' => __DIR__ . '/../..' . '/includes/Core/User/User.php',
-        'WeDevs\\WeMail\\Core\\Users\\Menu' => __DIR__ . '/../..' . '/includes/Core/Users/Menu.php',
         'WeDevs\\WeMail\\FrontEnd\\FormOptIn' => __DIR__ . '/../..' . '/includes/FrontEnd/FormOptIn.php',
         'WeDevs\\WeMail\\FrontEnd\\FrontEnd' => __DIR__ . '/../..' . '/includes/FrontEnd/FrontEnd.php',
         'WeDevs\\WeMail\\FrontEnd\\Scripts' => __DIR__ . '/../..' . '/includes/FrontEnd/Scripts.php',
@@ -205,9 +203,9 @@ class ComposerStaticInit1ff1169e95e9ebcfc194ebddc50535de
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1ff1169e95e9ebcfc194ebddc50535de::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1ff1169e95e9ebcfc194ebddc50535de::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit1ff1169e95e9ebcfc194ebddc50535de::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitfbf654f7f09a660f3c97fa2afa3bf743::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitfbf654f7f09a660f3c97fa2afa3bf743::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitfbf654f7f09a660f3c97fa2afa3bf743::$classMap;
 
         }, null, ClassLoader::class);
     }
