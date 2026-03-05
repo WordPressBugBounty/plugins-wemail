@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfbf654f7f09a660f3c97fa2afa3bf743
+class ComposerStaticInit89d5ee0ff0ed73efe31dabd0cdca81b6
 {
     public static $files = array (
         '9e4824c5afbdc1482b6025ce3d4dfde8' => __DIR__ . '/..' . '/league/csv/src/functions_include.php',
@@ -203,9 +203,9 @@ class ComposerStaticInitfbf654f7f09a660f3c97fa2afa3bf743
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfbf654f7f09a660f3c97fa2afa3bf743::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfbf654f7f09a660f3c97fa2afa3bf743::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitfbf654f7f09a660f3c97fa2afa3bf743::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit89d5ee0ff0ed73efe31dabd0cdca81b6::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit89d5ee0ff0ed73efe31dabd0cdca81b6::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit89d5ee0ff0ed73efe31dabd0cdca81b6::$classMap;
 
         }, null, ClassLoader::class);
     }
