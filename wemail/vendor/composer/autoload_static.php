@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitae5c0d32e266c61e176b5d7fa2b87689
+class ComposerStaticInit994efb05ed778c6cd84e3e4825ca7c97
 {
     public static $files = array (
         '9e4824c5afbdc1482b6025ce3d4dfde8' => __DIR__ . '/..' . '/league/csv/src/functions_include.php',
@@ -185,6 +185,7 @@ class ComposerStaticInitae5c0d32e266c61e176b5d7fa2b87689
         'WeDevs\\WeMail\\Rest\\Resources\\Ecommerce\\WooCommerce\\OrderItemResource' => __DIR__ . '/../..' . '/includes/Rest/Resources/Ecommerce/WooCommerce/OrderItemResource.php',
         'WeDevs\\WeMail\\Rest\\Resources\\Ecommerce\\WooCommerce\\OrderResource' => __DIR__ . '/../..' . '/includes/Rest/Resources/Ecommerce/WooCommerce/OrderResource.php',
         'WeDevs\\WeMail\\Rest\\Resources\\Ecommerce\\WooCommerce\\ProductResource' => __DIR__ . '/../..' . '/includes/Rest/Resources/Ecommerce/WooCommerce/ProductResource.php',
+        'WeDevs\\WeMail\\Rest\\Resources\\Ecommerce\\WooCommerce\\SubscriptionResource' => __DIR__ . '/../..' . '/includes/Rest/Resources/Ecommerce/WooCommerce/SubscriptionResource.php',
         'WeDevs\\WeMail\\Rest\\Resources\\JsonResource' => __DIR__ . '/../..' . '/includes/Rest/Resources/JsonResource.php',
         'WeDevs\\WeMail\\Rest\\Rest' => __DIR__ . '/../..' . '/includes/Rest/Rest.php',
         'WeDevs\\WeMail\\Rest\\Site' => __DIR__ . '/../..' . '/includes/Rest/Site.php',
@@ -206,9 +207,9 @@ class ComposerStaticInitae5c0d32e266c61e176b5d7fa2b87689
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitae5c0d32e266c61e176b5d7fa2b87689::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitae5c0d32e266c61e176b5d7fa2b87689::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitae5c0d32e266c61e176b5d7fa2b87689::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit994efb05ed778c6cd84e3e4825ca7c97::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit994efb05ed778c6cd84e3e4825ca7c97::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit994efb05ed778c6cd84e3e4825ca7c97::$classMap;
 
         }, null, ClassLoader::class);
     }

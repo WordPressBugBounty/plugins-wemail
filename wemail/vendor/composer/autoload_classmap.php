@@ -150,6 +150,7 @@ return array(
     'WeDevs\\WeMail\\Rest\\Resources\\Ecommerce\\WooCommerce\\OrderItemResource' => $baseDir . '/includes/Rest/Resources/Ecommerce/WooCommerce/OrderItemResource.php',
     'WeDevs\\WeMail\\Rest\\Resources\\Ecommerce\\WooCommerce\\OrderResource' => $baseDir . '/includes/Rest/Resources/Ecommerce/WooCommerce/OrderResource.php',
     'WeDevs\\WeMail\\Rest\\Resources\\Ecommerce\\WooCommerce\\ProductResource' => $baseDir . '/includes/Rest/Resources/Ecommerce/WooCommerce/ProductResource.php',
+    'WeDevs\\WeMail\\Rest\\Resources\\Ecommerce\\WooCommerce\\SubscriptionResource' => $baseDir . '/includes/Rest/Resources/Ecommerce/WooCommerce/SubscriptionResource.php',
     'WeDevs\\WeMail\\Rest\\Resources\\JsonResource' => $baseDir . '/includes/Rest/Resources/JsonResource.php',
     'WeDevs\\WeMail\\Rest\\Rest' => $baseDir . '/includes/Rest/Rest.php',
     'WeDevs\\WeMail\\Rest\\Site' => $baseDir . '/includes/Rest/Site.php',
